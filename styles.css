@@ -1,0 +1,117 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Arial";
+    font-style: normal;
+}
+
+.section {
+    padding: 20px 0px;
+    height: 450px;
+}
+
+#section-hero {
+    background: url("images/bangladesh.jpeg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-hero h1 {
+    background: #457b9d;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    color: #ffffff;
+    width: 260px;
+}
+
+#section-hero h2 {
+    background: #1d3557;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 18.72px;
+    line-height: 22px;
+    color: #ffffff;
+    width: 400px;
+}
+
+#section-activities {
+    background: #f1faee;
+    color: #1d3557;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-place {
+    margin: 0px 20px;
+}
+
+.section-place img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#section-guide {
+    display: flex;
+    align-items: center;
+    background: #a8dadc;
+    box-shadow: 0px 6px 0px #457b9d;
+    border-radius: 5px;
+    width: 450px;
+    margin: 40px auto;
+    padding: 0px 20px;
+    border-bottom: 2px solid #457b9d;
+    color: #1d3557;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+#section-guide img {
+    width: 200px;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+
+#section-guide-details {
+    padding: 10px;
+}
+
+#section-guide-details h3 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+#section-guide-details p {
+    font-weight: 400;
+}
